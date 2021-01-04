@@ -1675,3 +1675,17 @@ input, select, textarea {
 	color: inherit;
 }
 
+
+#header .langswitch {
+	margin-top: 2rem;
+	font-size: 8pt;
+	margin-top: 2rem;
+}
+
+#header .langswitch:before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 0px;
+	background: #ffffff;
+}
